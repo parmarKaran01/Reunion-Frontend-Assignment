@@ -1,0 +1,30 @@
+.dropdown{
+    width: 250px;
+    height:auto;
+    /* background-color: aqua; */
+    cursor: pointer;
+}
+
+.dropdown .dropdown_btn{
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.dropdown .dropdownContent{
+    width: inherit;
+    background-color: white;
+    padding-left: 1.3em;
+    position: absolute;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.dropdown .dropdownContent .dropdownItem{
+    width: auto;
+    /* background-color: aquamarine; */
+    height: 2.1em;
+    z-index: 999;
+}
