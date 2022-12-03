@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import { HouseContext } from "./HouseContext";
 import DropDown from "./DropDown";
-import styles from "../styles/Dropdown.module.css"
+import styles from "../styles/DropDown.module.css"
 
 const LocationDropdown = () => {
   const { country, setCountry, countries } = useContext(HouseContext);

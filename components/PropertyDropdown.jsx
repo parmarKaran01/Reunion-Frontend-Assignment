@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import { HouseContext } from "./HouseContext";
-import styles from "../styles/Dropdown.module.css";
+import styles from "../styles/DropDown.module.css";
 
 const PropertyDropdown = () => {
   const { property, setProperty, properties } = useContext(HouseContext);

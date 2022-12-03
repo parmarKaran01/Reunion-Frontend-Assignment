@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { HouseContext } from "./HouseContext";
-import styles from "../styles/Dropdown.module.css";
+import styles from "../styles/DropDown.module.css";
 
 const PriceDropdown = () => {
   const prices = [
