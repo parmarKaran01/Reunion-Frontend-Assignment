@@ -9,7 +9,6 @@ const LocationDropdown = () => {
   // console.log(countries);
   return (
     <div>
-      {/* <DropDown options={countries} name={country} setValue={setCountry}/> */}
       <div className={styles.dropdown}>
         <div
           className={styles.dropdown_btn}

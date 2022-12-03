@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import LocationDropdown from "./LocationDropdown";
 import PriceDropdown from "./PriceDropdown";
 import PropertyDropdown from "./PropertyDropdown";
-import styles from "../styles/SearchComponent.module.css";
+import styles from "../styles/searchComponent.module.css";
 import { HouseContext } from "./HouseContext";
 
 const Search = () => {
@@ -14,14 +14,14 @@ const Search = () => {
         <div className={styles.searchTitle}>
           <h1>Search Properties to rent</h1>
         </div>
-        <div className={styles.inputContainer}>
+        {/* <div className={styles.inputContainer}>
           <input
             type="text"
             placeholder="Enter Keywords"
             className={styles.input}
             onChange={(e) => setQuery(e.target.value)}
           />
-        </div>
+        </div> */}
       </div>
       <div className={styles.filter_container}>
         <div className={styles.location_filter}>

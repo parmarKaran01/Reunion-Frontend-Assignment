@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/card.module.css";
 import Image from "next/image";
-import image1 from "../assets/house/house9.jpg";
 
 function Card({ items }) {
   return (
